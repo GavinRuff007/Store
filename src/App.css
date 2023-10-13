@@ -1,38 +1,111 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: "tanha";
+  src: url("../public/fonts/Tanha.eot");
+  src: url("../public/fonts/Tanha.eot?#iefix") format("embedded-opentype"),
+    url("../public/fonts/Tanha.woff2") format("woff2"),
+    url("../public/fonts/Tanha.woff") format("woff"),
+    url("../public/fonts/Tanha.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.xenon-border {
+  position: relative;
+  width: auto;
+  height: auto;
+  background-color: #EC53B0;
+  padding: auto;
+  margin: auto;
+
+}
+#root {
+  background-color: #5B0888;
+}
+.xenon-border:hover {
+  box-shadow: 0 0 10px 5px #EC53B0;
+  transition: all 0.3s ease;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Text1{
+  color: #EC53B0;
+}
+.ProductList {
+  padding: 40px;
+  margin: 30px;
+  background-color: #322653;
+  box-shadow: 0 0 10px 5px #EC53B0;
+
+  border-radius: 30px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.ProductList3 {
+  padding: 70px;
+  margin: 90px;
+  background-color: #322653;
+  box-shadow: 0 0 10px 5px #EC53B0;
+
+  border-radius: 30px;
+}
+
+.ProductList2{
+  padding: 50px;
+  margin-bottom: 370px;
+  margin-top: 70px;
+  margin-left: 350px;
+  margin-right: 350px;
+  background-color: #322653;
+  box-shadow: 0 0 10px 5px #EC53B0;
+
+  border-radius: 30px;
+}
+
+.pageClassName{
+  width: auto;
+  height: auto;
+}
+
+.pageClassName {
+  box-shadow: 0 0 10px 5px #EC53B0;
+  display: block;
+  border: 1px solid #ccc; /* You can adjust the border color */
+  width: 40px;
+  height: 40px;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  border-radius: 4px; /* Adjust the border radius as needed */
+  margin-right: 2px;
+  background-color: #322653 !important;
+}
+.pageActivename {
+  display: block;
+  border: 1px solid #ccc; /* You can adjust the border color */
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px; /* Adjust the border radius as needed */
+  margin: 7px;
+  background-color: #713ABE;
 }
 
-.App-link {
-  color: #61dafb;
+
+
+.glass-div {
+  background: rgba(255, 255, 255, 0.1); /* Set the background color with low opacity */
+  padding: auto;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: auto;
+  margin:  auto;
+  text-align: center;
+  backdrop-filter: blur(5px); /* Apply a blur effect to the background */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.glass-div p {
+  margin: 0;
+  font-weight: bold;
 }
