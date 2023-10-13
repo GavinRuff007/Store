@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/Store/static/css/main.ebac6c2e.css",
-    "main.js": "/Store/static/js/main.6ce6b875.js",
+    "main.js": "/Store/static/js/main.ee612160.js",
     "static/media/Tanha.eot": "/Store/static/media/Tanha.73e5c99b01a03de40227.eot",
     "static/media/Tanha.ttf": "/Store/static/media/Tanha.153f40cbdccaa0d6790d.ttf",
     "static/media/Tanha.woff": "/Store/static/media/Tanha.f4a9b6f4f20f44e01e8d.woff",
     "static/media/Tanha.woff2": "/Store/static/media/Tanha.93bd7afefd8c57ae6c2f.woff2",
     "index.html": "/Store/index.html",
     "main.ebac6c2e.css.map": "/Store/static/css/main.ebac6c2e.css.map",
-    "main.6ce6b875.js.map": "/Store/static/js/main.6ce6b875.js.map"
+    "main.ee612160.js.map": "/Store/static/js/main.ee612160.js.map"
   },
   "entrypoints": [
     "static/css/main.ebac6c2e.css",
-    "static/js/main.6ce6b875.js"
+    "static/js/main.ee612160.js"
   ]
 }
